@@ -1,0 +1,13 @@
+var cleanestCities = ["cheyenne","santa","tuscon","great","honula"];
+var cityToCheck = "tuscon";
+var newElements = cleanestCities.length;
+var matchFound = false;
+for (var i=0; i<numElements; i++){
+if (cityToCheck === cleanestCities[i]) {
+matchFound = true;
+alert(cleanestCities[i++] + "its one of the cleanest cities");
+break;
+}}
+if (matchFound === false) {
+alert("its not on the list");
+}
